@@ -1,5 +1,5 @@
 # WOMS 工单管理系统
-> 基于 SpringBoot 4.1 + Vue3 的企业工单管理系统
+> 基于 SpringBoot 4.1 + Vue3 + mysql8.0 的企业工单管理系统
 
 ## 📖 项目简介
 WOMS（Work Order Management System）工单管理系统，面向企业内部业务人员，实现工单的提交、派单、处理、完结与全流程跟踪。系统采用前后端分离架构，后端使用SpringBoot开发，前端基于Vue3 + Element Plus实现，支持用户权限控制、操作日志留存、文件上传等功能，方便管理人员统一维护工单业务数据。
@@ -46,12 +46,14 @@ WOMS（Work Order Management System）工单管理系统，面向企业内部业
 
 ## 📁 项目结构
 ```
-WOMS
-├── src/main/java        # Java 后端源码
-├── src/main/resources   # 配置文件（yml、mybatis mapper 文件）
+Work-Order-Management-System
+├── sql                  # MySQL 建表脚本
+├── woms                 # SpringBoot 后端项目
+│   ├── src/main/java    # Java 后端源码
+│   ├── src/main/resources # yml、mapper 配置文件
+│   ├── build.gradle
+│   └── settings.gradle
 ├── womsvue              # Vue3 前端项目
-├── build.gradle         # Gradle 构建配置
-├── settings.gradle
 └── README.md            # 项目说明文档
 ```
 
