@@ -1,5 +1,3 @@
-# 优化后版本（保留你原文，微调排版、修正细节，适配GitHub README渲染，毕设观感更好）
-```markdown
 # WOMS 工单管理系统
 > 基于 SpringBoot 4.1 + Vue3 的企业工单管理系统
 
